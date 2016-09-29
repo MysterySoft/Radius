@@ -77,3 +77,42 @@ K:\Unity projects\Radius\Temp\bin\Debug\UnityEditor.TreeEditor.xml
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp-Editor.dll
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp-Editor.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp-Editor.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\nunit.framework.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Advertisements.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.EditorTestsRunner.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Graphs.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Networking.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.TreeEditor.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.UI.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.WebGL.Extensions.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.WindowsStandalone.Extensions.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.UI.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.DataContract.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.CecilTools.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Advertisements.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\nunit.framework.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.EditorTestsRunner.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.UI.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.UI.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Networking.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.TreeEditor.xml
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp-Editor.dll
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp-Editor.pdb

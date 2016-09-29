@@ -42,3 +42,25 @@ K:\Unity projects\Radius\Temp\bin\Debug\UnityEngine.Networking.xml
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp.dll
 K:\Unity projects\Radius\obj\Debug\Assembly-CSharp.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.UI.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.DataContract.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.CecilTools.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.UI.xml
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp.dll
+E:\GitRepo\Radius\Radius\obj\Debug\Assembly-CSharp.pdb

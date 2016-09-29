@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class characterController : MonoBehaviour {
+public class BallController : MonoBehaviour {
 	public GameObject player;
 	public float speed;
 	public float scale;
@@ -18,6 +18,8 @@ public class characterController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		Debug.Log (Time.deltaTime);
+		player.transform.Translate (new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"), 0) * /*Time.deltaTime*/(speed/50));
 	}
 
 	// Трігер на знищення хавки і збільшення розмірів іграка
@@ -28,8 +30,21 @@ public class characterController : MonoBehaviour {
 			transform.localScale += new Vector3 (scale, scale, scale);
 		}
 	}
-
-	void Update(){
-		player.transform.Translate (new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"), 0)*Time.deltaTime*speed);
+	void OnTriggerEnter2D (Collider2D col)
+	{
+		if (col.tag == "food") {
+			Destroy (col.gameObject);
+			transform.localScale += new Vector3 (scale, scale, scale);
+		}
 	}
+
+
+
+
+	/*void LateUpdate()
+	{
+		player.transform.Translate (new Vector3 (Input.GetAxis ("Horizontal"), Input.GetAxis ("Vertical"), 0)* Time.deltaTime* speed);
+	}*/
+
+
 }
