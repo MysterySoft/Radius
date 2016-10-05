@@ -8,7 +8,7 @@ public class newcam : MonoBehaviour {
 	void Start () {
 		
 	}
-	void Update () 
+	void LateUpdate () 
 	{
 		cam.transform.position = pl.transform.position-new Vector3 (0,0,3);
 
