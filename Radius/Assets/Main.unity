@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692492, g: 0.496787, b: 0.57508546, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -305,7 +305,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1572251265}
-        m_MethodName: exit
+        m_MethodName: CloseApp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -642,7 +642,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1572251265}
+      - m_Target: {fileID: 0}
         m_MethodName: swichPanel
         m_Mode: 1
         m_Arguments:
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1572251265}
+      - m_Target: {fileID: 0}
         m_MethodName: swichPanel
         m_Mode: 1
         m_Arguments:
@@ -973,7 +973,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1572251265}
+      - m_Target: {fileID: 0}
         m_MethodName: soundSeting
         m_Mode: 1
         m_Arguments:
@@ -1446,10 +1446,10 @@ RectTransform:
   - {fileID: 2074963309}
   m_Father: {fileID: 1572251264}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0.63081694, y: 0}
-  m_AnchorMax: {x: 1, y: 0.34417748}
-  m_AnchoredPosition: {x: -12.5, y: 10.5}
-  m_SizeDelta: {x: 24, y: 21}
+  m_AnchorMin: {x: 0.666, y: 0}
+  m_AnchorMax: {x: 1, y: 0.36351043}
+  m_AnchoredPosition: {x: -0.25, y: -0.5}
+  m_SizeDelta: {x: -0.5, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531413926
 MonoBehaviour:
@@ -1491,7 +1491,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1572251265}
-        m_MethodName: newGame
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1722,12 +1722,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572251257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6be0109df10f60a4db017fd074c7f8be, type: 3}
+  m_Script: {fileID: 11500000, guid: 33407dc07e2a683418bc29001806bf75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 1795099742}
-  music: {fileID: 1258773173}
-  sfx: {fileID: 1869548741}
 --- !u!1 &1746535683
 GameObject:
   m_ObjectHideFlags: 0

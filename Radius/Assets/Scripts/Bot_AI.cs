@@ -6,6 +6,7 @@ using System;
 [RequireComponent (typeof (Rigidbody2D))]
 
 public class Bot_AI : MonoBehaviour {
+	public GameObject []prefab_to_generate;
 	public float speed,distance,size;
 	public GameObject player;
 	public int way_to_go;
@@ -37,7 +38,7 @@ public class Bot_AI : MonoBehaviour {
 	void FixedUpdate()
 	{  
 		nspeed  = speed  * Time.deltaTime;	
-		Debug.Log (Time.time);
+	///	Debug.Log (Time.time);
 		if(nexttime<Time.time)
 		{
 			random_way ();
@@ -55,9 +56,12 @@ public class Bot_AI : MonoBehaviour {
 		
 
 
-			if (size < player.GetComponent<BallController> ().size) { // якщо бота менший за розмір гравця, то бот тікає.
+			if (size <= player.GetComponent<BallController> ().size) { // якщо бота менший за розмір гравця, то бот тікає.
 				RunAway ();
-			} else { //якщо ні.Здоганяємо.
+			} 
+			else 
+			
+			{ //якщо ні.Здоганяємо.
 				transform.position = Vector3.MoveTowards (transform.position, player.transform.position, nspeed/transform.localScale.x);// Метод відповідає за рух у напрямі другого параметра. Третій параметр - швидкість руху.				
 			}
 
@@ -138,6 +142,18 @@ public class Bot_AI : MonoBehaviour {
 
 			Destroy (col.gameObject);
 			transform.localScale += new Vector3 (0.05f, 0.05f, 0.05f);
+			float x, y;
+
+			System.Random r = new System.Random ();
+
+			x = r.Next(-30,40);
+			y = r.Next(-40, 40);
+			int	choice = r.Next (0,7);
+			Vector3 new_point = 	new Vector3 (x,y,0 );
+
+
+
+			Instantiate (prefab_to_generate[choice] , new_point,prefab_to_generate[choice].transform.localRotation);
 
 		}
 		//Якщо хаваэм обёэкт з тегом "персонаж"
