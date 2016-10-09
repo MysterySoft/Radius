@@ -103,6 +103,7 @@ E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Mdb.dll
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\Unity.CecilTools.dll
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\Mono.Cecil.Pdb.dll
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+E:\GitRepo\Radius\Radius\Temp\bin\Debug\Assembly-CSharp.pdb
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEngine.xml
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.xml
 E:\GitRepo\Radius\Radius\Temp\bin\Debug\UnityEditor.Advertisements.xml

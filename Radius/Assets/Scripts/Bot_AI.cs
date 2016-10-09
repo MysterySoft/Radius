@@ -7,6 +7,7 @@ using System;
 
 public class Bot_AI : MonoBehaviour {
 	public GameObject []prefab_to_generate;
+
 	public float speed,distance,size;
 	public GameObject player;
 	public int way_to_go;
@@ -23,7 +24,6 @@ public class Bot_AI : MonoBehaviour {
 	void Start () 
 	{	
 		player = GameObject.Find ("Player"); // призначаэмо змінній значення об'екта з ієрархії з іменем "player".
-
 	}
 
 
