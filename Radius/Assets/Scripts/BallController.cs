@@ -10,13 +10,14 @@ public class BallController : MonoBehaviour {
 	public float speed,size;
 	float nspeed=0;
 	public Texture []scins;
-	public MeshRenderer mesh;
+    MeshRenderer mesh;
 
 	void Start () {
 		mesh = GetComponent<MeshRenderer> ();
 		System.Random n = new System.Random ();
 		int r = n.Next(0,7);
-		mesh.material.mainTexture = scins [r];
+
+        mesh.material.mainTexture = scins [r];
 
 	}
 

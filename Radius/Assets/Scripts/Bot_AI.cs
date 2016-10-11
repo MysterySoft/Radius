@@ -7,8 +7,10 @@ using System;
 
 public class Bot_AI : MonoBehaviour {
 	public GameObject []prefab_to_generate;
+    public Texture[] scins;
+    MeshRenderer mesh;
 
-	public float speed,distance,size;
+    public float speed,distance,size;
 	public GameObject player;
 	public int way_to_go;
     float nspeed=0, nexttime=0f,rate=4f;
@@ -22,8 +24,18 @@ public class Bot_AI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () 
-	{	
-		player = GameObject.Find ("Player"); // призначаэмо змінній значення об'екта з ієрархії з іменем "player".
+	{  
+        //////////////////
+        mesh = GetComponent<MeshRenderer>();
+        System.Random n = new System.Random();
+        int r = n.Next(0, 7);
+        r = n.Next(0,7);
+        mesh.material.mainTexture = scins[r];
+        ////////////////////////////////////
+
+
+
+        player = GameObject.Find ("Player"); // призначаэмо змінній значення об'екта з ієрархії з іменем "player".
 	}
 
 
@@ -38,7 +50,7 @@ public class Bot_AI : MonoBehaviour {
 	void FixedUpdate()
 	{  
 		nspeed  = speed  * Time.deltaTime;	
-	///	Debug.Log (Time.time);
+
 		if(nexttime<Time.time)
 		{
 			random_way ();

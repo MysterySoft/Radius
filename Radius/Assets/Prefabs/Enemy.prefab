@@ -226,6 +226,14 @@ MonoBehaviour:
   - {fileID: 1000013001611264, guid: d56c0e307140af640a46a1df3677c090, type: 2}
   - {fileID: 1000011504488680, guid: 92bd4bd27dd7f07489ecff3fd3d77cfb, type: 2}
   - {fileID: 1000012306646332, guid: 5efb822ba8746a34fb95677366dccfd8, type: 2}
+  scins:
+  - {fileID: 2800000, guid: 02edb3aef63d67d40976a2ec9d5c20bd, type: 3}
+  - {fileID: 2800000, guid: 2e0f993deeaf4434cb7d2a3cc827c816, type: 3}
+  - {fileID: 2800000, guid: 243e0feb4c19c3d458a9605be92cffd0, type: 3}
+  - {fileID: 2800000, guid: 1e4e6aefc1015f8499e14c40bcb5dcb0, type: 3}
+  - {fileID: 2800000, guid: ee71dea6caaf9604da2417f1d2e5b5dc, type: 3}
+  - {fileID: 2800000, guid: 2d10b8de024802b44af784c3ffe22ac4, type: 3}
+  - {fileID: 2800000, guid: f771b4b5221d3c64b809cb214651a890, type: 3}
   speed: 4
   distance: 0
   size: 0
