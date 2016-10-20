@@ -9,8 +9,16 @@ public class MainMenuScr : MonoBehaviour {
 	
 	}
 
+	public void About(GameObject panel)
+	{
+        if (panel.active == true)
+            panel.active = false;
+        else
+            panel.active = true;
 
-	public void CloseApp()
+    }
+
+    public void CloseApp()
 	{
 		Application.Quit();
 	}
