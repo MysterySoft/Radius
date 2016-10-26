@@ -1,0 +1,110 @@
+[33mcommit 1c42eac5b3f8a7303960f22ae8b0ffdb96df4ff8[m
+Author: Alex <invincible.ghost@yandex.ru>
+Date:   Wed Oct 26 13:06:58 2016 +0300
+
+    test2
+
+[33mcommit b4c2eca9583e2ceb292b55779ce2281c847da78b[m
+Author: Alex <invincible.ghost@yandex.ru>
+Date:   Wed Oct 26 13:04:26 2016 +0300
+
+    test1
+
+[33mcommit 136313638565bc0b65aee74b11fc93af43fed33d[m
+Author: Alex <invincible.ghost@yandex.ru>
+Date:   Wed Oct 26 13:03:18 2016 +0300
+
+    test1
+
+[33mcommit ac16e3f8ce9385852dafddf568246e689a1be373[m
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Wed Oct 26 12:54:42 2016 +0300
+
+    Добавив екран завершення гри
+
+[33mcommit 0046d4b6169a39ee534c2042b7cbe26d759b3b5c[m
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Thu Oct 20 23:09:03 2016 +0300
+
+    Добавлення меню паузи і самої паузи
+
+[33mcommit cadf6bb085bf180b949938fde1247fb513813b14[m
+Author: sinchik97 <crash2@i.ua>
+Date:   Tue Oct 11 12:35:09 2016 +0300
+
+    Зміна кольору гравця та бота
+
+[33mcommit be614b077c3b7b34a115d55f56630cbba15171e9[m
+Author: GrayBreath <sinchik97@mail.ru>
+Date:   Sun Oct 9 14:10:59 2016 +0300
+
+    Респаун ботів і логіка коли смерті персонажа гравця.
+
+[33mcommit a8b1cead9dd83937c699d9a127fa3d7581536c28[m
+Author: GrayBreath <sinchik97@mail.ru>
+Date:   Sat Oct 8 21:54:40 2016 +0300
+
+    Респаун хавки якщо її хаває гравець чи бот
+    
+    Потім просто поробувати смерджити гілку з паузою. Або, якщо не
+    получиться. UI з паузою засунути в пакет та імпортнути в робочий проект
+    з мастер гілки, і зробити коміт.
+
+[33mcommit 25b9c2f4f0840423aeaa00e515d8838af68a0c26[m
+Author: GrayBreath <sinchik97@mail.ru>
+Date:   Wed Oct 5 19:08:57 2016 +0300
+
+    Логіка бота, і плавний рух бота і гравця.
+    
+    Логіка бота, і плавний рух бота і гравця. Відношення зменшення швидкості
+    при великих розмірах кулі.
+
+[33mcommit cbf68c07cf7372aecf525765027b65567acea6f3[m
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Thu Sep 29 22:13:28 2016 +0300
+
+    Добавлено меню паузи і логіку головного меню
+
+[33mcommit 5437f534319fd4826f43bda269482dc336c6bcd0[m
+Merge: 6a975c7 4db7e86
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Thu Sep 29 18:22:07 2016 +0300
+
+    Merge branch 'interface'
+
+[33mcommit 4db7e86c9facc8ac429619959545fdd6ccc3d8bd[m
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Thu Sep 29 18:21:33 2016 +0300
+
+    Добавлення інтерфейсу
+
+[33mcommit 6a975c7566804d759c72b6abd88ce8fd0a2c1dcd[m
+Author: GrayBreath <sinchik97@mail.ru>
+Date:   Thu Sep 29 17:46:16 2016 +0300
+
+    Glow Walls and Fixed Wall Collision. Fixed smooth player movment.
+
+[33mcommit 7db586e0d7daf7fa241ddd428d596aafaf967e39[m
+Merge: ce7968c a243a0b
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Tue Sep 27 21:39:04 2016 +0300
+
+    Merge branch 'addInterface'
+
+[33mcommit a243a0b35788bafa776863354cd6fd82dba33293[m
+Author: Andriy <andriy1909@yandex.ua>
+Date:   Tue Sep 27 20:13:04 2016 +0300
+
+    Добавлений інтерфейс головного меню
+
+[33mcommit ce7968c4f1ec3ce9730299c0474aeb5a47265594[m
+Author: Alex <invincible.ghost@yandex.ru>
+Date:   Mon Sep 26 22:19:25 2016 +0300
+
+    Original
+
+[33mcommit fc18266b09aa341df88d05b455a9818054d770aa[m
+Author: andriy1909 <andriy1909@yandex.ua>
+Date:   Mon Sep 26 21:47:28 2016 +0300
+
+    Initial commit
