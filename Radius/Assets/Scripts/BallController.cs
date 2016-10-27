@@ -45,7 +45,7 @@ public class BallController : MonoBehaviour {
 
 	}
 
-	/// Трігер на знищення хавки і збільшення розмірів іграка
+	///// Трігер на знищення хавки і збільшення розмірів іграка
 	void OnTriggerEnter2D (Collider2D col)
 	{    //Якщо хаваэм обёэкт з тегом "Хавка"
 		if (col.tag == "food") {
